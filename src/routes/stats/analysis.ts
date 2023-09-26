@@ -1,4 +1,4 @@
-import { ScaleTypes, type LineChartOptions } from "@carbon/charts-svelte";
+import { ScaleTypes, type LineChartOptions, ChartTheme } from "@carbon/charts-svelte";
 
 class Analysis {
     gameLength: number;
@@ -50,9 +50,7 @@ class Analysis {
                     includeZero: false
                 }
             },
-            // legend: {
-            //     enabled: false
-            // }
+            theme: ChartTheme.G100
         }
 
         return {

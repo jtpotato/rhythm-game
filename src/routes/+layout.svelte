@@ -3,7 +3,7 @@
 	import '@carbon/charts-svelte/styles.css';
 </script>
 
-<div class="p-16">
+<div class="flex p-12 max-w-6xl mx-auto min-h-screen">
 	<slot />
 </div>
 
