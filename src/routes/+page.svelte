@@ -20,7 +20,7 @@
 
 <div class="flex flex-col items-center justify-center gap-16 m-auto">
     <p>Tap this button with a steady beat. Go as fast/slow as you like.</p>
-    <button on:click={handleClick}>
+    <button on:click={handleClick} style="touch-action: manipulation">
         <div class="bg-yellow-400 aspect-square rounded-full w-32"></div>
     </button>
     <p>Tap {clicksRemaining} times</p>
