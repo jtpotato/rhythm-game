@@ -1,6 +1,9 @@
-<script>
-    import '@carbon/charts-svelte/styles.css'
-    import 'carbon-components-svelte/css/g100.css'
+<script lang="ts">
+	import '../app.postcss';
+	import '@carbon/charts-svelte/styles.css';
 </script>
 
-<slot />
+<div class="p-16">
+	<slot />
+</div>
+

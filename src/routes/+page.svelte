@@ -8,7 +8,6 @@
 	const handleClick = () => {
 		clickTimes.push(window.performance.now());
         clicksRemaining--;
-		console.log(clickTimes);
         checkIfGameIsOver();
 	};
 
