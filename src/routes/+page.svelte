@@ -24,6 +24,8 @@
         <div class="bg-yellow-400 aspect-square rounded-full w-32"></div>
     </button>
     <p>Tap {clicksRemaining} times</p>
+    <!--Then we hide this link from everyone!! but we still keep it!!-->
+    <a href="/stats?clickTimes={clickTimes}&gameLength={gameLength}" data-sveltekit-preload-data class="hidden">hi! why are you here?</a>
     <div class="w-4 h-4" />
 </div>
 
